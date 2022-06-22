@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingHorizontal="20dp"
+    android:paddingHorizontal="30dp"
     android:orientation="vertical"
     android:background="#AABBDD"
     tools:context=".MainActivity">
@@ -13,12 +13,12 @@
         android:layout_height="wrap_content"
         android:text="My Homework: Android. Lesson 1"
         android:gravity="center_horizontal"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp" />
+        android:padding="10dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Push me!"
         android:textSize="20sp"
-        android:layout_margin="20dp" />
+        android:layout_margin="12dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -37,18 +37,19 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content" />
 
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:layout_gravity="center_horizontal" />
+
         <CheckBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+
     </LinearLayout>
 
-
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/design_default_color_secondary_variant"
-        android:layout_gravity="center_horizontal" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -58,37 +59,51 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:hint="Login"
         android:inputType="text" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:hint="Person Name"
         android:inputType="textPersonName" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:hint="Phone"
         android:inputType="phone" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:hint="Number"
         android:inputType="number" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="15sp"
         android:hint="Your password"
         android:inputType="textPassword" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Your email adress "
+        android:textSize="15sp"
+        android:hint="Your email adress"
         android:inputType="textEmailAddress" />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </LinearLayout>
+
